@@ -33,3 +33,5 @@ jobs:
         run: npm run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.INTERVIEWQUESTION }}
+          TARGET_REPO: gaving2016/interviewquestion
+          TARGET_BRANCH: gh-pages
